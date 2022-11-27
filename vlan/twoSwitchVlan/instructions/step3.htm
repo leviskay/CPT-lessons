@@ -1,0 +1,65 @@
+<h1>Настройка VLAN</h1>
+<div>
+  Для коммутатора <b>Left</b> и <b>Right</b> необходимо осуществить следующую
+  настройку vlan
+</div>
+<br />
+<table border="1px solid black">
+  <thead>
+    <tr>
+      <td>VLAN</td>
+      <td>Имя</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>[[VLAN1name]]</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>[[VLAN2name]]</td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<div>И следующую настройку интерфейсов</div>
+<br />
+<table border="1px solid black">
+  <thead>
+    <tr>
+      <td>Интерфейс</td>
+      <td>тип (mode)</td>
+      <td>VLAN</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Fa0/1</td>
+      <td>access</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Fa0/2</td>
+      <td>access</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Fa0/3</td>
+      <td>access</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Fa0/4</td>
+      <td>access</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>Fa0/5</td>
+      <td>access</td>
+      <td>(allowed) 2,3</td>
+    </tr>
+  </tbody>
+</table>
+
+<div>Не забудьте произвести настройку для <b>ОБОИХ</b> коммутаторов</div>

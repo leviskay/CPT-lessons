@@ -1,0 +1,81 @@
+<body>
+  <h1>Проверка схемы</h1>
+  <div>
+    Если все было настроено правильно, то теперь ПК1 и ПК2 могут обмениваться
+    пакетами.
+  </div>
+  <div>
+    Проверьте это с помощью команды ping через <b>Command promt</b> (вкладка
+    <i>Desktop</i>) на одном из ПК.
+  </div>
+  <div>
+    Убедившись, что пакеты проходят успешно, завершите задание, нажав кнопку
+    <b>Check results</b> ниже.
+  </div>
+  <div class="checkResult">
+    <div>Кнопка <b>Check Results</b></div>
+    <div class="arrow">
+      <svg
+        width="24px"
+        height="24px"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.9997 3.67163L12.9997 3.67163L12.9997 16.4999L16.2423 13.2574L17.6565 14.6716L11.9996 20.3285L6.34277 14.6716L7.75699 13.2574L10.9997 16.5002L10.9997 3.67163Z"
+          fill="black"
+        />
+      </svg>
+    </div>
+  </div>
+</body>
+
+<style>
+  .checkResult {
+    position: absolute;
+    bottom: 0px;
+  }
+  .checkResult > .arrow {
+    position: relative;
+    left: 100px;
+  }
+</style>
+<style>
+  *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+    font-size: x-large;
+  }
+
+  body {
+    max-width: 800px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    height: 100%;
+  }
+
+  .warning {
+    padding: 20px;
+    border: 5px solid wheat;
+  }
+  table {
+    border: 1px solid black;
+  }
+
+  td {
+    padding: 5px;
+  }
+  .console-cabel {
+    color: aqua;
+  }
+
+  .next {
+    position: absolute;
+    display: inline-block;
+    right: 5px;
+  }
+
+  .next > .arrow {
+    position: relative;
+    left: 20px;
+  }
+</style>
